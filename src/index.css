@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply overflow-x-hidden overflow-y-auto lg:overflow-x-hidden lg:overflow-y-auto text-primary font-secondary bg-white;
+  }
+  .h1 {
+    @apply text-[54px] lg:text-[75px] font-primary font-bold capitalize leading-[120%] tracking-[-0.05em] mb-2;
+  }
+  .section {
+    @apply h-full w-full;
+  }
+  .btn {
+    @apply py-[13px] px-[50px] h-[66px] flex items-center justify-center text-base uppercase font-secondary font-semibold bg-primary text-white;
+  }
+}
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes rotateBlob {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.05);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+
+  .animate-rotateBlob {
+    animation: rotateBlob 10s linear infinite;
+  }
+
+  @keyframes pulseGlow {
+    0%, 100% {
+      opacity: 0.6;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+
+  .animate-pulseGlow {
+    animation: pulseGlow 6s ease-in-out infinite;
+  }
+}
+
