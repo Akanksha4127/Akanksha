@@ -52,6 +52,7 @@ const Home = () => {
                 loop
               />
             </h1>
+            
             <p className="text-lg md:text-2xl text-gray-300 mb-6">
               Jehanabad, Bihar, India
             </p>
