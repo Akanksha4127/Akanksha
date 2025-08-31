@@ -3,6 +3,8 @@ import Image2 from "../img/portfolio/2.png";
 import Image3 from "../img/portfolio/3.png";
 import EmpowerED from "../img/portfolio/EmpowerED.png"
 import Bacteria from "../img/portfolio/BacteriaClassifier.png";
+import Weather from "../img/portfolio/Weather.png";
+import Eval from "../img/portfolio/Eval.png";
 
 
 export const ProductDetails = [
@@ -17,7 +19,7 @@ export const ProductDetails = [
     title: "EVALUATION PLATFORM | LLM FINE TUNING, MARKS EVALUATING |",
     description:
       "Collaborated on a MERN stack web app for automated marks evaluation using ChatGPT-4, with future integration of LLaMA 2, to assess responses based on structure, vocabulary, and coherence, enhancing grading accuracy and efficiency.",
-    image: Image2,
+    image: Eval,
     link: "https://github.com/Akanksha4127/Bacteria-Classifier.git",
   },
   {
@@ -27,13 +29,13 @@ export const ProductDetails = [
     image: Bacteria,
     link: "https://github.com/Akanksha4127/Bacteria-Classifier.git",
   },
-  // {
-  //   title: "BACTERIAL CLASSIFICATION |",
-  //   description:
-  //     "Developed an SVM-based ML model to classify bacterial images as Gram-positive or Gram-negative, with a Flask backend and HTML/CSS frontend for image upload and result display.",
-  //   image: Image2,
-  //   link: "/projects/blockchain-voting",
-  // },
+  {
+    title: "WEATHERLY |",
+    description:
+      "A modern, animated Weather Forecast App built with React, Tailwind CSS, Framer Motion, and Open-Meteo API. Search any city worldwide 🌐 and get live temperature, weather conditions, and dynamic background effects.",
+    image: Weather,
+    link: "https://weather-now-drab.vercel.app/",
+  },
   // {
   //   title: "BACTERIAL CLASSIFICATION |",
   //   description:

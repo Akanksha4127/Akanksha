@@ -11,13 +11,17 @@ const Socials = () => {
           </a>
         </li>
         <li>
-          <a href="#" target="_blank" className="p-2  text-white ">
+          <a
+            href="https://instagram.com/akankshasinha906"
+            target="_blank"
+            className="p-2  text-white "
+          >
             <ImInstagram size={20} />
           </a>
         </li>
         <li>
           <a
-            href="akankshasinha906@gmail.com"
+            href="https://github.com/Akanksha4127"
             target="_blank"
             className="p-2  text-white "
           >
@@ -26,7 +30,7 @@ const Socials = () => {
         </li>
         <li>
           <a
-            href="akankshasinha906@gmail.com"
+            href="https://akankshasinha.909@gmail.com"
             target="_blank"
             className="p-2  text-white "
           >
